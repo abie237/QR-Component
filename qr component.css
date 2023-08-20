@@ -1,0 +1,48 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}    
+body{
+    background:  hsl(219, 66%, 75%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-container{
+    padding: 10px;
+     width: 210px;
+     height: fit-content;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     background: white;
+     border-radius: 12px;
+     box-shadow: 0.5px 5px 20px 0.1px rgba(76, 71, 71, 0.216);
+}
+.qr-img{
+    width: 100%;
+    margin-bottom: 7px ;
+}
+.qr-img img{
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+    border-radius: 7px;
+}
+.qr-text {
+    font-weight: 700;
+}
+.qr-text small{
+    font-weight: 400;
+}
+.qr-txt{
+   width: 100%;
+   text-align: center;
+}
